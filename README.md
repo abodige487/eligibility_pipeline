@@ -13,6 +13,7 @@ and no changes to core processing logic.
 
 eligibility_pipeline/
 ├─ pipeline.py          - Main pipeline entry point
+
 ├─ transforms.py        - Reusable transformations and validations
 ├─ config.py            - Partner-specific configuration
 ├─ data/                - Input partner eligibility files
