@@ -7,20 +7,17 @@ their schemas, and produces a single unified output dataset.
 The design ensures that onboarding a new partner requires only configuration changes
 and no changes to core processing logic.
 
----
 
 ## Project Structure
 
 eligibility_pipeline/
 ├─ pipeline.py          - Main pipeline entry point
-
 ├─ transforms.py        - Reusable transformations and validations
 ├─ config.py            - Partner-specific configuration
 ├─ data/                - Input partner eligibility files
 ├─ output/              - Final unified output
 └─ README.md
 
----
 
 ## Problem Statement
 
